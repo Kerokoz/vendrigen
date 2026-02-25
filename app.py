@@ -14,5 +14,5 @@ def home():
     return "Welcome to Vendrigen 🚀"
 
 
-if __name__ == "__main__":
+if __name__ == "___main___":
     app.run(debug=True)
