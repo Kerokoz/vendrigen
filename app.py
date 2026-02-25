@@ -1,13 +1,12 @@
 from flask import Flask
 from messages import team_message
 
+app = Flask(__name__)
+
 
 @app.route("/team/<team>")
 def team(team):
     return team_message(team)
-
-
-app = Flask(__name__)
 
 
 @app.route("/")
